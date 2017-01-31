@@ -41,7 +41,7 @@ minetest.register_craftitem("physicalmoney:bill500", {
 --up-crafting
 
 
--- down-crafting
+--down-crafting
 
 minetest.register_craft({
 	type = "shapeless",
