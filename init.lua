@@ -40,6 +40,607 @@ minetest.register_craftitem("physicalmoney:bill500", {
 
 --up-crafting
 
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill100", "physicalmoney:bill200", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill100", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill200", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill200", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill10",
+        recipe = {"physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill200", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill200", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill200", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill50", "physicalmoney:bill200", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill50", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill5",
+        recipe = {"physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill10",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill200", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100", "physicalmoney:bill100", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill500",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill200", "physicalmoney:bill200"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill50", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill50", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:coin2",
+        recipe = {"physicalmoney:coin2"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill10",
+        recipe = {"physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:coin1",
+        recipe = {"physicalmoney:coin1"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill5",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill10",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill200",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50", "physicalmoney:bill100"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:coin2",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill10",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill5",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill10",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill100",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20", "physicalmoney:bill50"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill10", "physicalmoney:bill10", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill10",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:coin2", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill5",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill10",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill50",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:bill5", "physicalmoney:bill20", "physicalmoney:bill20"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:bill5", "physicalmoney:bill10"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill20",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:bill5", "physicalmoney:bill5", "physicalmoney:bill5"}
+})
+minetest.register_craft({
+        type = "shapeless",
+        output = "physicalmoney:bill10",
+        recipe = {"physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin1", "physicalmoney:coin2", "physicalmoney:coin2"}
+})
+
 
 --down-crafting
 
