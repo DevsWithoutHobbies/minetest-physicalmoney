@@ -39,3 +39,54 @@ minetest.register_craftitem("physicalmoney:bill500", {
 })
 
 --up-crafting
+
+
+-- down-crafting
+
+minetest.register_craft({
+	type = "shapeless",
+	output = "physicalmoney:coin1 2",
+	recipe = {"physicalmoney:coin2"}
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = "physicalmoney:coin1 5",
+	recipe = {"physicalmoney:bill5"}
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = "physicalmoney:bill5 2",
+	recipe = {"physicalmoney:bill10"}
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = "physicalmoney:bill10 2",
+	recipe = {"physicalmoney:bill20"}
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = "physicalmoney:bill10 5",
+	recipe = {"physicalmoney:bill50"}
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = "physicalmoney:bill50 2",
+	recipe = {"physicalmoney:bill100"}
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = "physicalmoney:bill100 2",
+	recipe = {"physicalmoney:bill200"}
+})
+
+minetest.register_craft({
+	type = "shapeless",
+	output = "physicalmoney:bill100 5",
+	recipe = {"physicalmoney:bill500"}
+})
