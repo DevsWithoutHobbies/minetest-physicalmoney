@@ -1,3 +1,4 @@
+--Adding coins
 minetest.register_craftitem("physicalmoney:coin1", {
 	description = "1$ Coin",
 	inventory_image = "physicalmoney_coin1.png"
@@ -7,6 +8,7 @@ minetest.register_craftitem("physicalmoney:coin2", {
 	inventory_image = "physicalmoney_coin2.png"
 })
 
+--Adding bills
 minetest.register_craftitem("physicalmoney:bill5", {
 	description = "5$ Bill",
 	inventory_image = "physicalmoney_bill5.png"
@@ -35,3 +37,5 @@ minetest.register_craftitem("physicalmoney:bill500", {
 	description = "500$ Bill",
 	inventory_image = "physicalmoney_bill500.png"
 })
+
+--up-crafting
